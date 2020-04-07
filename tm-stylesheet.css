@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturCook&display=swap');
+
+.wrapper {
+        display: grid;
+        grid-gap: 1vw;
+        grid-template-columns: 18vw 38vw 38vw;
+        background-color: #f9f9f9;
+        color: #444;
+    }
+
+@media screen and (max-width: 1100px) {
+  .wrapper {
+        grid-template-columns: 30vw 68vw;
+    grid-gap: 2vw;
+    }
+  }
+
+.sidebar {
+  grid-column: 1 ;
+  grid-row: 1 / span 2;
+}
+
+.a {
+  grid-column: 2 ;
+  grid-row: 1;
+  height: 49vh;
+}
+
+.b {
+  grid-column: 3 ;
+  grid-row: 1;
+  height: 49vh;
+}
+
+.c {
+  grid-column: 3 ;
+  grid-row: 2;
+  height: 49vh;
+}
+
+.d {
+  grid-column: 2 ;
+  grid-row: 2;
+  height: 49vh;
+}
+
+@media screen and (max-width: 1100px) {
+  .sidebar {
+  grid-column: 1 ;
+  grid-row: 1 / span 4;
+}
+
+.a {
+  grid-column: 2 ;
+  grid-row: 1;
+  height: 40vh;
+  width: 65vw;
+}
+
+.b {
+  grid-column: 2 ;
+  grid-row: 2;
+  height: 40vh;
+  width: 65vw;
+}
+
+.c {
+  grid-column: 2 ;
+  grid-row: 4;
+  height: 45vh;
+  width: 65vw;
+}
+
+.d {
+  grid-column: 2 ;
+  grid-row: 3;
+  height: 40vh;
+  width: 65vw;
+}
+  }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  background-color: #D3D3D3;
+}
+
+h1 {
+    color: #fff; /* this is the fallback */
+  -webkit-text-stroke: 1px #fff;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Fugaz One', cursive;
+  font-size: 10vw;
+  text-align: center;
+  margin: auto;
+}
+
+h2 {
+  font-family: Arial Black, sans-serif;
+  font-weight: 700;
+}
+
+.header {
+  height: 74vh;
+  width: 18vw;
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  background-color: black;
+  text-align: center; !important
+}
+
+@media screen and (max-width: 1100px) {
+   .header {
+     width: 30vw;
+  }
+}
+
+.box {
+  border: 1px solid;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box-short {
+  border: 1px solid;
+  margin: 10px;
+  padding: 2%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box-large {
+  border: 1px solid;
+  margin: 10px;
+  padding: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+p {
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.hiq {
+  font-family: 'IBM Plex Mono', monospace;
+  height: 24vh;
+  margin-top: 15px;
+  width: 18vw;
+  border: 1px solid;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1100px) {
+   .hiq {
+     width: 30vw;
+  }
+}
+
+.plex_semi {
+  font-weight: 700;
+}
+
+.plex_eli {
+  font-weight: 200i;
+  font-style: italic;
+}
+
+form {
+  text-align: right;
+  position: relative;
+  margin-right: 5px;
+}
+
+input[type=email] {
+  width: 75%;
+  padding: 15px;
+  border: 1.5px solid;
+}
+
+input[type=submit] {
+  font-family: 'IBM Plex Mono', monospace;
+  color: white;
+  background-color: black;
+  border: 1.5px solid black;
+  margin-top: 10px;
+  padding: 15px;
+}
+
+.rotate-90 {
+  transform: rotate(-90deg);
+}
+
+.rotate-180 {
+  transform: rotate(-180deg);
+}
+
+.vertical-rl {
+  writing-mode: vertical-rl;
+}
+
+.vertical-lr {
+  writing-mode: vertical-lr;
+  padding: 5%;
+}
+
+.hiq-box {
+    color: #000; /* this is the fallback */
+  -webkit-text-stroke: 4px #000;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Fugaz One', cursive;
+  font-weight: 1000;
+  font-size: 14vw;
+  line-height: 5.5vh;
+  margin: auto;
+}
+
+
+
+.plnt {
+  font-family: 'UnifrakturCook', cursive;
+  margin-right: 2vw;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: 2vh;
+  padding: 0;
+  font-size: 10vh;
+  line-height: 10vh;
+}
+
+.pod {
+  font-size: 7vh;
+}
+
+.sss {
+  font-size: 10vh;
+  margin: auto;
+  font-family: 'Damion', cursive;
+  background: -webkit-linear-gradient(.25turn, #FB8CAB, #B4ABFC);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
