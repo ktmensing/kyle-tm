@@ -221,7 +221,8 @@ input[type=submit] {
 
 
 .plnt {
-  font-family: 'Libre Barcode 39 Extended Text', cursive;
+  font-family: 'UnifrakturCook', cursive;
+  /*font-family: 'Libre Barcode 39 Extended Text', cursive;*/
   color: green;
   margin-right: 2vw;
   margin-left: auto;
